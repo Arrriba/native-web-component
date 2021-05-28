@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Native Web Component</title>
+  <meta name="LiveBarChart" content="Native Web Component">
+  <script src="./js/live-bar-chart.js"></script>
+  <script src="./js/chart-input.js"></script>
+</head>
+
+<body>
+
+  <live-bar-chart title="Great Chart Title" prefix="%"></live-bar-chart>
+
+  <style>
+    html,
+    body {
+      background-color: dodgerblue;
+      font-family: Consolas, monaco, monospace;
+    }
+
+    div#chart-container {
+      align-items: center;
+      align-self: center;
+      background-color: black;
+      text-align: center;
+      padding-left: 5%;
+      color: white;
+      border-radius: 20px;
+    }
+
+    form#new-chart-form {
+      float: right;
+      padding: 10px;
+      font-size: xx-large;
+    }
+
+    input {
+      color: white;
+      border-radius: 15px;
+      border-width: 2px;
+      text-align: center;
+      background-color: black;
+      height: 25px;
+      border-color: cyan;
+    }
+
+    table {
+      width: 100%;
+      height: 400px;
+    }
+
+    .charttitle {
+      text-align: center;
+    }
+
+    .bars td {
+      vertical-align: bottom;
+    }
+
+    .bars div:hover {
+      opacity: 0.6;
+    }
+
+    .legend {
+      vertical-align: bottom;
+      text-align: left;
+    }
+
+    .legbox {
+      display: block;
+      clear: both;
+    }
+
+    .xaxisname {
+      margin: 5px;
+      color: #fff;
+      font-size: 77%;
+      padding: 5px;
+      float: left;
+    }
+
+
+    /*Flat UI colors*/
+
+    .one {
+      background: #16A085;
+    }
+
+    .two {
+      background: #2ECC71;
+    }
+
+    .three {
+      background: #27AE60;
+    }
+
+    .four {
+      background: #3498DB;
+    }
+
+    .five {
+      background: #2980B9;
+    }
+
+    .six {
+      background: #9B59B6;
+    }
+
+    .seven {
+      background: #8E44AD;
+    }
+
+    .eight {
+      background: #34495E;
+    }
+
+    .nine {
+      background: #2C3E50;
+    }
+
+    .ten {
+      background: #22313f;
+    }
+
+    .eleven {
+      background: #F1C40F;
+    }
+
+    .twelve {
+      background: #F39C12;
+    }
+
+    .thirteen {
+      background: #E67E22;
+    }
+
+    .fourteen {
+      background: #D35400;
+    }
+
+    .fifteen {
+      background: #E74C3C;
+    }
+
+    .sixteen {
+      background: #C0392B;
+    }
+  </style>
+
+</body>
+
+</html>
